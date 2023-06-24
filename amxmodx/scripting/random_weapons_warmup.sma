@@ -1,6 +1,13 @@
 #include <amxmodx>
 #include <reapi>
 
+/*
+	Модификация от ArKaNeMaN.
+	Добавлены форварды RWW_OnFinished и RWW_OnStarted.
+	Нужно для интеграции с Vip Modular.
+	GitHub: https://github.com/ArKaNeMaN/VipM-L-RandomWeaponsWarmUP
+*/
+
 /*■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■*/
 #define TIME_RR 	40	// Время разминки
 #define NUM_RR		2	// Кол-во рестартов
